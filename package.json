@@ -1,15 +1,23 @@
 {
-  "name": "evaluation",
+  "name": "project",
   "version": "1.0.0",
-  "description": "LinkedIn app",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "server":"nodemon index.js",
+    "server": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramNgithub/fullstackevolutionbackend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramNgithub/fullstackevolutionbackend/issues"
+  },
+  "homepage": "https://github.com/ramNgithub/fullstackevolutionbackend#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "dotenv": "^16.0.3",
